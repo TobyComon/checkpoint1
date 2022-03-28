@@ -2,6 +2,11 @@
   --maintext: rgb(224, 24, 108);
 }
 
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: large;
+}
+
 .bg-gif {
   background-image: url(https://media1.giphy.com/media/Ju7l5y9osyymQ/200.webp?cid=ecf05e476rcohikfhv5o1i8gkg23kb0j4xdm964wvh5gg43x&rid=200.webp&ct=g);
   background-size: cover;
@@ -38,7 +43,7 @@ nav {
 /* TODO remember the top, right, bottom, left properties we can use to move an item with position absolute */
 
 .spill {
-  top: 1000px;
+  top: 1400px;
   /* height: 160px;
   width: 550px; */
   /* size: auto; */
