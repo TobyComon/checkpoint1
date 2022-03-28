@@ -35,15 +35,26 @@ nav {
   height: 40vh;
 }
 
+/* TODO remember the top, right, bottom, left properties we can use to move an item with position absolute */
+
 .spill {
-  /* top: 30px; */
+  top: 1000px;
   /* height: 160px;
   width: 550px; */
   /* size: auto; */
-  position: relative;
+  position: absolute;
   /* left: 750px; */
   background-color: #21239cc2;
   color: rgb(224, 24, 108);
+}
+
+/* TODO we need a media query here to identify when the screen is on mobile, remove the position-absolute and replace it with position relative */
+
+@media only screen and (max-width: 568px) {
+  .spill {
+    position: relative;
+    top: auto;
+  }
 }
 
 .recent-posts {
